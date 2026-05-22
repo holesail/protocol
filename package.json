@@ -1,0 +1,20 @@
+{
+  "name": "@holesail/protocol",
+  "version": "1.0.0",
+  "description": "protocol for Holesail stream verification",
+  "license": "AGPL-3.0",
+  "author": "supersuryaansh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier . --write",
+    "test": "prettier . --check"
+  },
+  "dependencies": {
+    "bare-encoding": "^1.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}
